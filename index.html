@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page - HTML, CSS, Javascript (GSAP)</title>
+    <!-- ==== STYLE.CSS ==== -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- REMIXICON CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- ==== WRAPPER ==== -->
+    <section class="wrapper">
+        <div class="left_container">
+            <nav>
+                <div class="logo_content">
+                    <img src="./logo.png" alt="logo" class="nike_logo">
+                </div>
+                <ul class="nav_content">
+                    <li><a class="nav_links" href="#men">men</a></li>
+                    <li><a class="nav_links" href="#women">women</a></li>
+                    <li><a class="nav_links" href="#kids">kids</a></li>
+                </ul>
+            </nav>
+            <br>
+            <main class="tools">
+                <div class="search">
+                    <input type="text" class="search_input" placeholder="Search here....">
+                    <button class="search_btn">
+                        <div class="slider">
+                            <i class="ri-search-line"></i>
+                        </div>
+                    </button>
+                </div>
+
+            </main>
+            <section>
+                <main class="brand_type">
+                    <div class="large_text">
+                        <h2 class="head"> stylist <br>sneakers</h2>
+                    </div>
+
+                </main>
+            </section>
+            <br>
+            <section class="bottom_shoes_slider">
+                <ul class="bottom_shoes_card">
+                    <li class="card_shoe">
+                        <div class="shoe_content">
+                            <img src="./shoe_img/nike-air-force.png" alt="nike-air-force" class="shoe">
+                        </div>
+                        <div class="desc_product">
+                            <div class="transparent_bg">
+                                <div class="add_to_cart">
+                                    <i class="ri-add-line"></i>
+                                </div>
+                            </div>
+                            <div class="desc">
+                                <span class="card_product_name">nike air force</span>
+                                <span>3 colors</span>
+                                <span class="price"><i class="ri-money-euro-circle-line"></i> 950.00</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card_shoe">
+                        <div class="shoe_content" style="background-color: #c93849;">
+                            <img src="./shoe_img/nike-air-force-1-high.png" alt="nike-air-force-1-high" class="shoe">
+                        </div>
+                        <div class="desc_product">
+                            <div class="transparent_bg">
+                                <div class="add_to_cart" style="background-color: #c93849;">
+                                    <i class="ri-add-line"></i>
+                                </div>
+                            </div>
+                            <div class="desc">
+                                <span class="card_product_name">air force 1 high</span>
+                                <span>3 colors</span>
+                                <span class="price"><i class="ri-money-euro-circle-line"></i> 690.00</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card_shoe">
+                        <div class="shoe_content" style="background-color: #78787C;">
+                            <img src="./shoe_img/air-max-270.png" alt="air-max-270" class="shoe">
+                        </div>
+                        <div class="desc_product">
+                            <div class="transparent_bg">
+                                <div class="add_to_cart" style="background-color: #78787C;">
+                                    <i class="ri-add-line"></i>
+                                </div>
+                            </div>
+                            <div class="desc">
+                                <span class="card_product_name">air max 270</span>
+                                <span>3 colors</span>
+                                <span class="price"><i class="ri-money-euro-circle-line"></i> 700.00</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card_shoe">
+                        <div class="shoe_content" style="background-color: black;">
+                            <img src="./shoe_img/air-max-excee-.png" alt="air-max-excee-" class="shoe">
+                        </div>
+                        <div class="desc_product">
+                            <div class="transparent_bg">
+                                <div class="add_to_cart" style="background-color: black;">
+                                    <i class="ri-add-line"></i>
+                                </div>
+                            </div>
+                            <div class="desc">
+                                <span class="card_product_name">air max excee</span>
+                                <span>3 colors</span>
+                                <span class="price"><i class="ri-money-euro-circle-line"></i> 800.00</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card_shoe">
+                        <div class="shoe_content" style="background-color: #959ebd;">
+                            <img src="./shoe_img/nike-span-2.png" alt="nike-span-2" class="shoe">
+                        </div>
+                        <div class="desc_product">
+                            <div class="transparent_bg">
+                                <div class="add_to_cart" style="background-color: #959ebd;">
+                                    <i class="ri-add-line"></i>
+                                </div>
+                            </div>
+                            <div class="desc">
+                                <span class="card_product_name">Nike span 5</span>
+                                <span>3 colors</span>
+                                <span class="price"><i class="ri-money-euro-circle-line"></i> 750.00</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <main class="right_container">
+            <nav class="right_nav">
+                <ul class="right_nav_content">
+                    <li class="r_nav_links">
+                        model : cK3478-200
+                    </li>
+
+                </ul>
+            </nav>
+            <section class="selected_product">
+
+
+                <div class="selected_product_content">
+                    <img src="./shoe_img/air-max-90.png" alt="nike-air-max-90" class="selected_product_img">
+                </div>
+                <div class="size_product">
+                    <main class="content">
+                        <ul class="size_list">
+                            <li class="size_item">
+                                <span>39</span>
+                            </li>
+                            <li class="size_item">
+                                <span>40</span>
+                            </li>
+                            <li class="size_item">
+                                <span>41</span>
+                            </li>
+                            <li class="size_item">
+                                <span>42</span>
+                            </li>
+                            <li class="size_item">
+                                <span>43</span>
+                            </li>
+                        </ul> <br><br>
+                        <div class="text">
+                            <h3 class="selected_product_text">Nike air max 90</h3>
+                        </div>
+                        <div class="reviews">
+                            <span>reviews 1k+</span>
+
+                        </div>
+                    </main>
+                </div>
+            </section>
+        </main>
+    </section>
+    <div class="men">
+      <p id="men"></p>
+      <img src="blacknikeM.jpeg" height="200px" width="200px" title="$900.00">
+      <img src="bluenikeM.jpeg" height="200px" width="200px" title="$850.00">
+      <img src="whitenikeM.jpeg"height="200px" width="200px" title="$900.00">
+      <img src="highnikeM.jpeg" height="200px" widtg="200px" title="$1000.00">
+      <img src="greynikeM.jpeg" height="200px" width="200px" title="$970.00">
+      <img src="greenrednikeM.jpeg" height="200px" width="200px" title="899.00">
+      <img src="graynikeM.jpeg" height="200px" width="200px" title="$870.00">
+      <img src="goldybluenikeM.jpeg" height="200px" width="200px" title="$790.00">
+      <img src="clothnikeM.jpeg" height="200px" width="200px" title="$987.00">
+      <img src="navybluenikeM.jpeg" height="200px" width="200px" title="$927.00">
+      <img src="orangenikeM.jpeg" height="200px" width="200px" title="$780.00">
+      <img src="navynikeM.jpeg" height="200px" width="200px" title="$769.00">
+      <img src="ropeblacknikeM.jpeg" height="200px" width="200px" title="$960.00">
+      <img src="ropenikeM.jpeg" height="200px" width="200px" title="$890.00">
+      <img src="rainbownikeM.jpeg" height="200px" width="200px" title="$940.00">
+      <img src="splashnikeM.jpeg" height="200px" width="200px" title="$851.00">
+      <img src="whiteballM.jpeg" height="200px" width="200px" title="$960.00">
+      <img src="whitnikeM.jpeg" height="200px" width="200px" title="$735.00">
+      <img src="pinkyrednikeM.jpeg" height="200px" width="200px" title="$860.00">
+      <img src="femalenikeM.jpeg" height="200px" width="200px" title="$1000.00">
+      <img src="brownikeM.jpeg" height="200px" width="200px" title="$870.00">
+      <img src="blueballnikeM.jpeg" height="200px" width="200px" title="$980.00">
+      <img src="ashnikeM.jpeg" height="200px" width="200px" title="$1005.00">
+      <img src="nikeM.jpeg" height="200px" width="200px" title="$890.00"> 
+      <img src="nikeblueM.jpeg" height="200px" width="200px" title="$890.00">
+      <img src="lightgreennikeM.jpeg" height="200px" width="200px" title="$890.00">
+      <img src="lightrednikeM.jpeg" height="200px" width="200px" title="$800.00">
+      <img src="brownnikeM.jpeg" height="200px" width="200px" title="$1006.00">
+      <img src="blunikeM.jpeg" height="200px" width="200px" title="$790.00">
+      <img src="blacnikeM.jpeg" height="200px" width="200px" title="$900.00">
+      <img src="basketnikeM.jpeg" height="200px" width="200px" title="$998.00">
+      </div>
+      <div class="women">
+          <p id="women"></p>
+          <img src="whitenikeF.jpeg"height="200px" width="200px" title="$600.00">
+          <img src="pinknikeF.jpeg"height="200px" width="200px" title="$700.00">
+          <img src="rednikeF.jpeg"height="200px" width="200px" title="$680.00">
+          <img src="orangenikeF.jpeg"height="200px" width="200px" title="$950.00">
+          <img src="multicolornikeF.jpeg"height="200px" width="200px" title="$850.00">
+          <img src="lightbluenikeF.jpeg"height="200px" width="200px" title="$600.00">
+          <img src="greennikeF.jpeg"height="200px" width="200px" title="$710.00">
+          <img src="blackwhitenikeF.jpeg"height="200px" width="200px" title="$840.00">
+          <img src="bluenikeF.jpeg"height="200px" width="200px" title="$1000.00">
+          <img src="ashnikeF.jpeg"height="200px" width="200px" title="$740.00">
+          <img src="blackpinknikeF.jpeg"height="200px" width="200px" title="$750.00">
+          <img src="darkpinkynikeF.jpeg"height="200px" width="200px" title="$876.00">
+          <img src="darkpinknikeF.jpeg"height="200px" width="200px" title="$986.00">
+          <img src="femalenikeM.jpeg"height="200px" width="200px" title="$872.00">
+          <img src="foampinknikeF.jpeg"height="200px" width="200px" title="$832.00">
+          <img src="grayblacnikeF.jpeg"height="200px" width="200px" title="$953.00">
+          <img src="greenrednikeF.jpeg"height="200px" width="200px" title="$932.00">
+          <img src="layernikeF.jpeg"height="200px" width="200px" title="$912.00">
+          <img src="pinkblacnikeF.jpeg"height="200px" width="200px" title="$831.00">
+          <img src="pinkwhitnikeF.jpeg"height="200px" width="200px" title="$922.00">
+          <img src="rubbernikeF.jpeg"height="200px" width="200px" title="$903.00">
+          <img src="runningnikeF.jpeg"height="200px" width="200px" title="$8230.00">
+          <img src="whitbrownnikeF.jpeg"height="200px" width="200px" title="$831.00">
+          <img src="whitepinknikeF.jpeg"height="200px" width="200px" title="$800.00">
+        </div>
+      <div class="kids">
+          <p id="kids">
+              <img src="blacknikeK.jpeg"height="200px" width="200px" title="$950.00">
+              <img src="bluenikeK.jpeg"height="200px" width="200px" title="$699.10">
+              <img src="greennikeK.jpeg"height="200px" width="200px" title="$760.00">
+              <img src="lemonnikeK.jpeg"height="200px" width="200px" title="$840.00">
+              <img src="rednikeK.jpeg"height="200px" width="200px" title="$590.00">
+              <img src="whitepurplenikeK.jpeg"height="200px" width="200px" title="$750.00">
+              <img src="darkbluenikeK.jpeg"height="200px" width="200px" title="$750.00">
+              <img src="rednikeK.jpeg"height="200px" width="200px" title="$750.00">
+            </p>
+      </div>
+
+    <!-- ==== GSAP CDN ==== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <!-- ==== MAIN JS ==== -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
